@@ -1,14 +1,16 @@
 import { Link, Outlet, useLoaderData } from 'react-router-dom'
 import { FavoritesData } from '../types'
+import yelpBurst from '../assets/yelp_burst.svg'
 
 export default function Root() {
   const { favorites } = useLoaderData() as FavoritesData
 
   return (
     <>
-      <aside>
+      <aside className="sidebar sidebar-separated sidebar-left">
         <Link to="/">
           <h1 className="logo">
+            <img src={yelpBurst} alt="Yelp logo" width={25} />
             <span>Yelp Favorites</span>
           </h1>
         </Link>
