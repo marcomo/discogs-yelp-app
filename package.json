@@ -1,6 +1,7 @@
 {
 	"name": "discogs-yelp-app",
-	"version": "0.0.0",
+	"description": "An app that queries Yelp for favorite eateries and reviews ",
+	"version": "0.1.0",
 	"type": "module",
 	"private": true,
 	"scripts": {
