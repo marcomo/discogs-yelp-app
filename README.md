@@ -20,6 +20,8 @@ This is a interview exercise project. Hope they dig it.
 
 The app fetches basic data from Yelp of some hard-coded eateries (using their alias IDs). This loads a list into the UI's homepage. Clicking on an item loads a 'Fav' page which queries Yelp for more data about the eatery (reviews, rating, address, etc). The reviews panel has a refresh button that invalidates the cache for that page and refetches it. The plan here was to see updates in the reviews list but they don't come in frequently enough. 🫤
 
+Oh and it's set up to use your browser-preferred color theme (light, dark). So give your browser theme settings a toggle to check it out.
+
 ## Set-up
 
 Things you'll need to run:
