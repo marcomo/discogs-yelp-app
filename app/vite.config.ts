@@ -16,7 +16,16 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
-        favs: resolve(root, "favs", "index.html")
+      }
+    }
+  },
+  server: {
+    proxy: {
+      "/graphql": {
+        target: "https://api.yelp.com/v3/graphql",
+        changeOrigin: true,
+        secure: false,
+        rewrite: (path) => path.replace(/^\/graphql/, "")
       }
     }
   }
