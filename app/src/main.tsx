@@ -2,9 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.scss'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Root from "./routes/Root"
-import { rootLoader } from './routes/loaders'
+import Root from './routes/Root'
+import { businessLoader, rootLoader } from './routes/loaders'
 import Home from './components/Home'
+import { Favorite } from './routes/Favorite'
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,16 @@ const router = createBrowserRouter([
       {
         path: "",
         element: (<Home />)
+      },
+      {
+        children: [
+          {
+            path: "favs/:id",
+            id: "fav",
+            element: <Favorite />,
+            loader: businessLoader
+          }
+        ]
       }
     ]
   }

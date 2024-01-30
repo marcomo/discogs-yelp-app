@@ -41,3 +41,9 @@ export type FavoritesResponse = Record<string, Business>
 export type FavoritesData = {
   favorites: FavoritesResponse
 }
+export type ReviewsResponse = {
+  reviews: {
+    total: number
+    review: Review[]
+  }
+}

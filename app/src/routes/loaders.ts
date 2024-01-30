@@ -1,8 +1,9 @@
 import { LoaderFunction } from 'react-router-dom'
 import { queryFetch } from '../client/client'
 import { FavoritesQuery } from '../queries/Favorites'
-import { FavoritesResponse } from '../types'
+import { FavoritesResponse, ReviewsResponse } from '../types'
 import { QueryKey } from '@tanstack/react-query'
+import { BusinessQuery } from '../queries/Business'
 
 export const rootLoader: (queryKey: QueryKey) => LoaderFunction = (queryKey) => async () => {
   const favorites = await queryFetch<FavoritesResponse>(FavoritesQuery, queryKey)
@@ -13,4 +14,9 @@ export const rootLoader: (queryKey: QueryKey) => LoaderFunction = (queryKey) => 
     }
   }, {})
   return { favorites: out }
+}
+
+export const businessLoader: LoaderFunction = async ({ params }) => {
+  // TODO: What happens of the params id is empty?
+  return await queryFetch<ReviewsResponse>(BusinessQuery(params?.id ?? ""), ["favs", params.id, "reviews"])
 }
