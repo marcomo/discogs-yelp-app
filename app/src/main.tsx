@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './index.scss'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Root from "./routes/Root"
 import { rootLoader } from './routes/loaders'
+import Home from './components/Home'
 
 const router = createBrowserRouter([
   {
@@ -11,7 +12,13 @@ const router = createBrowserRouter([
     element: <Root />,
     loader: rootLoader(['/']),
     shouldRevalidate: () => false,
-    id: "root"
+    id: "root",
+    children: [
+      {
+        path: "",
+        element: (<Home />)
+      }
+    ]
   }
 ])
 
