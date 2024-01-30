@@ -30,13 +30,13 @@ Things you'll need to run:
 - A `.env.development.local` env file in `app/src`. This allows Vite dev server to pick up the needed env variables. It should have:
 
   ```
-  VITE_YELP_API_KEY=< API Key from Yelp>
+  VITE_YELP_API_KEY=<Your API Key>
   VITE_YELP_API_ENDPOINT=/graphql
   ```
 
 - a `.dev.vars` env file in the project root. This is to make the API Key avaiable to the Worker when it's running locally. It should have:
   ```
-  VITE_YELP_API_KEY=<API Key from your Yelp developer account>
+  VITE_YELP_API_KEY=<Your API Key>
   ```
 
 ## How it works
@@ -64,6 +64,8 @@ The UI posts queries to the server (no CORS issues or exposed secrets) and then 
 ## Things I'd like to add
 
 - Add SubPub to Yelp webhooks and send updates to UI via Server Sent Events
+- Add similar places based on the active favorite (same categories, location, rating)
+- Integrate a map and button to trigger driving directions
 - Add Cloudflare binding to D1 to store favorites, and add or remove them
 - Any GraphQL mutations... nothing I saw in Yelp API for updating user profile or posting reviews...
 - Accessibility
