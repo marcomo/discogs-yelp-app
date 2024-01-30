@@ -10,7 +10,7 @@
 		"start": "wrangler dev",
 		"app": "vite -c app/vite.config.ts --debug proxy",
 		"build": "tsc -p app/tsconfig.json && vite build -c app/vite.config.ts",
-		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+		"lint": "eslint . --ext js,ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview"
 	},
 	"devDependencies": {
@@ -35,5 +35,10 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-router-dom": "^6.21.3"
+	},
+	"msw": {
+		"workerDirectory": [
+			"app/public"
+		]
 	}
 }
