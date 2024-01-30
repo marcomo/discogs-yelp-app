@@ -6,6 +6,8 @@ import Root from './routes/Root'
 import { businessLoader, rootLoader } from './routes/loaders'
 import Home from './components/Home'
 import { Favorite } from './routes/Favorite'
+import Error from "./components/Error"
+
 
 const router = createBrowserRouter([
   {
@@ -14,12 +16,14 @@ const router = createBrowserRouter([
     loader: rootLoader(['/']),
     shouldRevalidate: () => false,
     id: "root",
+    errorElement: <Error />,
     children: [
       {
         path: "",
         element: (<Home />)
       },
       {
+        errorElement: <Error />,
         children: [
           {
             path: "favs/:id",

@@ -410,9 +410,10 @@ hr {
 	object-fit: cover;
 }
 
-.favorite-form {
+.error-page {
 	display: flex;
-	max-width: 40rem;
 	flex-direction: column;
-	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
 }
