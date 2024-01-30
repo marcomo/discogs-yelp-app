@@ -1,6 +1,7 @@
-import { Link, Outlet, useLoaderData } from 'react-router-dom'
+import { Link, NavLink, Outlet, useLoaderData } from 'react-router-dom'
 import { FavoritesData } from '../types'
 import yelpBurst from '../assets/yelp_burst.svg'
+import classNames from 'classnames'
 
 export default function Root() {
   const { favorites } = useLoaderData() as FavoritesData
@@ -19,7 +20,14 @@ export default function Root() {
             {
               Object.values(favorites).map(fav => (
                 <li className="list-item" key={fav.id}>
-                  <Link className="link" to={`/favs/${fav.id}`}>{fav.name}</Link>
+                  <NavLink
+                    className={({ isActive, isPending }) => {
+                      return classNames("link", { "nav__nav-item-active": isActive, "nav__nav-item-pending": isPending })
+                    }}
+                    to={`/favs/${fav.id}`}
+                  >
+                    {fav.name}
+                  </NavLink>
                 </li>
               ))
             }
