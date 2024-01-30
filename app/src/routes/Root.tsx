@@ -2,6 +2,7 @@ import { Link, NavLink, Outlet, useLoaderData } from 'react-router-dom'
 import { FavoritesData } from '../types'
 import yelpBurst from '../assets/yelp_burst.svg'
 import classNames from 'classnames'
+import ErrorBoundary from "../components/ErrorBoundary"
 
 export default function Root() {
   const { favorites } = useLoaderData() as FavoritesData
@@ -35,7 +36,9 @@ export default function Root() {
         </nav>
       </aside>
       <section className="detail">
-        <Outlet />
+        <ErrorBoundary>
+          <Outlet />
+        </ErrorBoundary>
       </section>
     </>
   );
