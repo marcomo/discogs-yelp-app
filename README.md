@@ -24,6 +24,12 @@ Oh and it's set up to use your browser-preferred color theme (light, dark). So g
 
 ## Set-up
 
+install dependencies:
+
+```
+npm run install:
+```
+
 Things you'll need to run:
 
 - A Yelp API Key with Developer Beta
