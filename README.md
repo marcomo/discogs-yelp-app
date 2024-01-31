@@ -27,7 +27,7 @@ Oh and it's set up to use your browser-preferred color theme (light, dark). So g
 install dependencies:
 
 ```
-npm run install:
+npm run install
 ```
 
 Things you'll need to run:
