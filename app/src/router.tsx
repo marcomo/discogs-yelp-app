@@ -3,17 +3,21 @@ import { createBrowserRouter } from 'react-router-dom'
 import Error from './components/Error'
 import { Favorite } from './routes/Favorite'
 import Home from './components/Home'
-import Root from './routes/Root'
-import { businessLoader, rootLoader } from './routes/loaders'
+import Layout from './routes/Layout'
+import { getFavorite, getFavorites } from './routes/loaders'
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <Root />,
-		loader: rootLoader(['/']),
+		element: <Layout />,
+		loader: getFavorites,
 		shouldRevalidate: () => false,
 		id: 'root',
-		errorElement: <Error />,
+		errorElement: (
+			<Layout>
+				<Error />
+			</Layout>
+		),
 		children: [
 			{
 				path: '',
@@ -26,7 +30,7 @@ const router = createBrowserRouter([
 						path: 'favs/:id',
 						id: 'fav',
 						element: <Favorite />,
-						loader: businessLoader,
+						loader: getFavorite,
 					},
 				],
 			},

@@ -1,28 +1,28 @@
 import { FunctionComponent } from 'react'
-import {
-	ErrorResponse,
-	isRouteErrorResponse,
-	useRouteError,
-} from 'react-router-dom'
+import { isRouteErrorResponse, useRouteError } from 'react-router-dom'
 
-type ErrorType = Error | ErrorResponse | null
-
-const Error: FunctionComponent = () => {
-	const error: ErrorType = useRouteError() as ErrorType
-	console.error(error)
+/**
+ * Renders an error wrapped in a layout for the Root component.
+ *
+ * @returns {ReactNode} A React element that renders an error message.
+ */
+const ErrorComponent: FunctionComponent<{ error?: unknown }> = (props) => {
+	const error = useRouteError()
 
 	return (
 		<div id='error-page' className='error-page'>
 			<h1>Oops!</h1>
 			<p>Sorry, an unexpected error has occurred.</p>
-			{error ? (
+			{props.error || error ? (
 				<p>
 					<i>
 						{isRouteErrorResponse(error)
 							? error.statusText
-							: error instanceof Error
-							? error.message
-							: 'Unknown error'}
+							: typeof error === 'string'
+							? new Error(error).message
+							: error?.constructor == Error
+							? new Error(error).message
+							: 'Unknown Error'}
 					</i>
 				</p>
 			) : null}
@@ -30,4 +30,4 @@ const Error: FunctionComponent = () => {
 	)
 }
 
-export default Error
+export default ErrorComponent

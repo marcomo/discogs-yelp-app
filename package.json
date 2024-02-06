@@ -39,7 +39,7 @@
 	},
 	"msw": {
 		"workerDirectory": [
-			"app/public"
+			"app/public/src"
 		]
 	}
 }

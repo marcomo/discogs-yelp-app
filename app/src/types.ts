@@ -30,7 +30,13 @@ export type Business = {
 	price: string | null
 }
 
+export type YelpSuccessResponse<Data = unknown> = { data: Data }
+export type YelpErrorResponse = { errors: { message: string }[] }
+export type YelpResponse<Data = unknown> = Partial<
+	YelpSuccessResponse<Data> & YelpErrorResponse
+>
 export type FavoritesResponse = Record<string, Business>
+export type BusinessResponse = { business: Business }
 export type ReviewsResponse = {
 	reviews: {
 		total: number

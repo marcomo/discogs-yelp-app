@@ -6,7 +6,7 @@ import Reviews from '../components/Reviews'
 import StarRating from '../components/StarRating'
 
 export const Favorite: FunctionComponent = () => {
-	const { business: fav } = useLoaderData() as { business: Business }
+	const fav = useLoaderData() as Business
 
 	return fav ? (
 		<div className='favorite'>

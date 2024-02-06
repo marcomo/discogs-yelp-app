@@ -3,15 +3,18 @@ import { Component, ErrorInfo, PropsWithChildren } from 'react'
 
 class ErrorBoundary extends Component<
 	PropsWithChildren,
-	{ hasError: boolean }
+	{
+		hasError: boolean
+		error?: Error
+	}
 > {
 	constructor(props: PropsWithChildren) {
 		super(props)
 		this.state = { hasError: false }
 	}
 
-	static getDerivedStateFromError(_error: Error) {
-		return { hasError: true }
+	static getDerivedStateFromError(error: Error) {
+		return { hasError: true, error }
 	}
 
 	componentDidCatch(error: Error, errorInfo: ErrorInfo) {
@@ -21,10 +24,10 @@ class ErrorBoundary extends Component<
 	render() {
 		if (this.state.hasError) {
 			// You can render any custom fallback UI
-			return <Error />
+			return <Error error={this.state.error} />
 		}
 
-		return this.props.children
+		return <>{this.props.children}</>
 	}
 }
 
