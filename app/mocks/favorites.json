@@ -1,0 +1,397 @@
+{
+	"yamaSushiAndSakeBarPortland3": {
+		"name": "Yama Sushi & Sake Bar",
+		"alias": "yama-sushi-and-sake-bar-portland-3",
+		"id": "gYHqxhVPjU45EiIivYbfUw",
+		"url": "https://www.yelp.com/biz/yama-sushi-and-sake-bar-portland-3?adjust_creative=KC-44AJQpA8gfEzz64IiGA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+		"display_phone": "(503) 841-5463",
+		"review_count": 966,
+		"rating": 4,
+		"photos": [
+			"https://s3-media3.fl.yelpcdn.com/bphoto/c_IF7YzIhsitx3K8H522HQ/o.jpg"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "926 NW 10th Ave"
+		},
+		"reviews": [
+			{
+				"id": "tCvMtzY2PM7ijqItgwNZXA",
+				"rating": 5,
+				"text": "Best Sushi bar in the Pearl hands down.  \nYama roll and miso soup w/ clams is my go to order. \n\nI'll add some pics next time I order",
+				"time_created": "2024-01-27 13:41:27",
+				"url": "https://www.yelp.com/biz/yama-sushi-and-sake-bar-portland-3?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=tCvMtzY2PM7ijqItgwNZXA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Jonny W."
+				}
+			},
+			{
+				"id": "48vKf2PKcLQqR3jFbDABCg",
+				"rating": 4,
+				"text": "My go-to sushi restaurant in downtown Portland! Typically, I come for a quick lunch. Service and cleanliness are fine, and I like the dark wood ambience....",
+				"time_created": "2023-12-30 13:19:21",
+				"url": "https://www.yelp.com/biz/yama-sushi-and-sake-bar-portland-3?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=48vKf2PKcLQqR3jFbDABCg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Shawn C."
+				}
+			},
+			{
+				"id": "BN-QppGI8C1fH0ekwVM7Ww",
+				"rating": 3,
+				"text": "i was a little disappointed with this place. we were in from out of town and were looking for sushi. this place was open late we decided to come here. we...",
+				"time_created": "2023-09-19 12:35:00",
+				"url": "https://www.yelp.com/biz/yama-sushi-and-sake-bar-portland-3?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=BN-QppGI8C1fH0ekwVM7Ww&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Jessica W."
+				}
+			}
+		],
+		"categories": [
+			{
+				"title": "Sushi Bars"
+			},
+			{
+				"title": "Japanese"
+			}
+		]
+	},
+	"phoVanBeavertonBeaverton5": {
+		"name": "Pho Van Beaverton",
+		"alias": "pho-van-beaverton-beaverton-5",
+		"id": "EgG2t6C22-mLU789Xw734w",
+		"url": "https://www.yelp.com/biz/pho-van-beaverton-beaverton-5?adjust_creative=KC-44AJQpA8gfEzz64IiGA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+		"display_phone": "(503) 627-0822",
+		"review_count": 412,
+		"rating": 3.5,
+		"photos": [
+			"https://s3-media2.fl.yelpcdn.com/bphoto/ZXmUl3hAWlN35GGAQLFwEg/o.jpg"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "11651 SW Beaverton Hillsdale Hwy"
+		},
+		"reviews": [
+			{
+				"id": "SGlsstx9c6DyinMmlZl5Iw",
+				"rating": 4,
+				"text": "Take your van and go to Pho Van Beaverton.\n\nI'll keep it short, simple, and sweet. \n\nI ordered the #5 tai sach which is the round steak and flank. Beef...",
+				"time_created": "2023-10-27 21:04:31",
+				"url": "https://www.yelp.com/biz/pho-van-beaverton-beaverton-5?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=SGlsstx9c6DyinMmlZl5Iw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Paul K."
+				}
+			},
+			{
+				"id": "_nSZcU17aYdWK9bc857dyw",
+				"rating": 4,
+				"text": "We put in a takeout order on friday night, and the order was ready right on cue at 15 min.\n\nFor the pork & shrimp bowl, the pork was far tastier than the...",
+				"time_created": "2023-10-26 18:10:37",
+				"url": "https://www.yelp.com/biz/pho-van-beaverton-beaverton-5?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=_nSZcU17aYdWK9bc857dyw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Shane W."
+				}
+			},
+			{
+				"id": "xOASj4q9GtRsuFKE358ohg",
+				"rating": 5,
+				"text": "my favorite Chả Giò, pho and bun spot! nice ambiance, speedy and friendly service. and the food is superb!!!",
+				"time_created": "2024-01-27 16:05:55",
+				"url": "https://www.yelp.com/biz/pho-van-beaverton-beaverton-5?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=xOASj4q9GtRsuFKE358ohg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Gwen S."
+				}
+			}
+		],
+		"categories": [
+			{
+				"title": "Vietnamese"
+			},
+			{
+				"title": "Noodles"
+			}
+		]
+	},
+	"laughingPlanetPortland25": {
+		"name": "Laughing Planet",
+		"alias": "laughing-planet-portland-25",
+		"id": "Y35OVbHGSzuNunhRif_-gg",
+		"url": "https://www.yelp.com/biz/laughing-planet-portland-25?adjust_creative=KC-44AJQpA8gfEzz64IiGA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+		"display_phone": "(503) 914-1055",
+		"review_count": 108,
+		"rating": 4,
+		"photos": [
+			"https://s3-media4.fl.yelpcdn.com/bphoto/xd7QvjruIO-3xB8pqDeaPA/o.jpg"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "625 NW Saltzman Rd"
+		},
+		"reviews": [
+			{
+				"id": "ZtAONTClkouSyU8RBJJuBw",
+				"rating": 5,
+				"text": "They say our ecosystem is centered 'round Oregon\nTasty plants, large and small, for you to try\nBut somewhere out in space\nThere's an overflowing plate\nThat...",
+				"time_created": "2024-01-26 17:29:08",
+				"url": "https://www.yelp.com/biz/laughing-planet-portland-25?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=ZtAONTClkouSyU8RBJJuBw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Marc F."
+				}
+			},
+			{
+				"id": "rr6JpmQnQx5Le3HcSjM6mg",
+				"rating": 5,
+				"text": "It is a great place to get some quick healthy food.  We ordered a paleo bowl with herbal tea to go. It was a short wait, and the staff offered to refill the...",
+				"time_created": "2023-11-23 07:00:37",
+				"url": "https://www.yelp.com/biz/laughing-planet-portland-25?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=rr6JpmQnQx5Le3HcSjM6mg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Charlie T."
+				}
+			},
+			{
+				"id": "ro0LjNncNpCW1PNySZoTWg",
+				"rating": 4,
+				"text": "I'm surprised there aren't more healthy food options in the Hillsboro/Beaverton area. The menu has a good selection of wraps, burritos, bowls and...",
+				"time_created": "2023-08-28 20:15:48",
+				"url": "https://www.yelp.com/biz/laughing-planet-portland-25?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=ro0LjNncNpCW1PNySZoTWg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Vicki B."
+				}
+			}
+		],
+		"categories": [
+			{
+				"title": "Juice Bars & Smoothies"
+			},
+			{
+				"title": "Vegan"
+			},
+			{
+				"title": "Gluten-Free"
+			}
+		]
+	},
+	"killerBurgerCedarHillsBeaverton4": {
+		"name": "Killer Burger - Cedar Hills",
+		"alias": "killer-burger-cedar-hills-beaverton-4",
+		"id": "HtBT_yqOJnxJpsuY6ijplA",
+		"url": "https://www.yelp.com/biz/killer-burger-cedar-hills-beaverton-4?adjust_creative=KC-44AJQpA8gfEzz64IiGA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+		"display_phone": "(503) 747-3069",
+		"review_count": 215,
+		"rating": 4.5,
+		"photos": [
+			"https://s3-media1.fl.yelpcdn.com/bphoto/XEvOb7mhD-PlUKSap8r8LA/o.jpg"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "2905 SW Cedar Hills Blvd"
+		},
+		"reviews": [
+			{
+				"id": "YtPoLHJ7SnmWIfq-_fVatg",
+				"rating": 5,
+				"text": "I was in a burger mood and this is the second burger I went to last week.  This was definitely the better of the two.  Ordering in front was easy.  They...",
+				"time_created": "2023-10-23 14:33:26",
+				"url": "https://www.yelp.com/biz/killer-burger-cedar-hills-beaverton-4?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=YtPoLHJ7SnmWIfq-_fVatg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Dian K."
+				}
+			},
+			{
+				"id": "N5AUg4VeDNhddQNXWtXXRQ",
+				"rating": 5,
+				"text": "In from out of town (Texas proud) and found this place on Yelp.  Wanted to see if they lived up to the name.  YEP!  Had the Bender Burger and it has some...",
+				"time_created": "2024-02-02 14:31:51",
+				"url": "https://www.yelp.com/biz/killer-burger-cedar-hills-beaverton-4?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=N5AUg4VeDNhddQNXWtXXRQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Craig N."
+				}
+			},
+			{
+				"id": "h2QoaiEVlUcXuDB28ys82Q",
+				"rating": 5,
+				"text": "Killer Burger always hits the spot. This time my kid got the barnyard with ham, egg, barbecue sauce,and seemingly a dozen extra toppings and it was inhaled...",
+				"time_created": "2023-06-09 13:22:00",
+				"url": "https://www.yelp.com/biz/killer-burger-cedar-hills-beaverton-4?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=h2QoaiEVlUcXuDB28ys82Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Janet M."
+				}
+			}
+		],
+		"categories": [
+			{
+				"title": "Burgers"
+			}
+		]
+	},
+	"lovejoyBakersPortland2": {
+		"name": "Lovejoy Bakers",
+		"alias": "lovejoy-bakers-portland-2",
+		"id": "-IOP1nLvNeYDkGQDp49xnQ",
+		"url": "https://www.yelp.com/biz/lovejoy-bakers-portland-2?adjust_creative=KC-44AJQpA8gfEzz64IiGA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+		"display_phone": "(503) 208-3113",
+		"review_count": 508,
+		"rating": 3.5,
+		"photos": [
+			"https://s3-media4.fl.yelpcdn.com/bphoto/b_Iz-bVsDWV2s7TeGjcjyA/o.jpg"
+		],
+		"price": "$$",
+		"location": {
+			"address1": "939 NW 10th Ave"
+		},
+		"reviews": [
+			{
+				"id": "8aHCUtb618-C7KvM7Pgebw",
+				"rating": 5,
+				"text": "The food was surprisingly delicious and great price! Everything we ordered taste good, big portion with real ingredients. The chai tea was really good, I...",
+				"time_created": "2023-11-11 18:00:01",
+				"url": "https://www.yelp.com/biz/lovejoy-bakers-portland-2?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=8aHCUtb618-C7KvM7Pgebw&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Lila C."
+				}
+			},
+			{
+				"id": "pHb0sKNIf4Hw7Mb3RssKsg",
+				"rating": 5,
+				"text": "Conveniently located. Nice outdoor space to enjoy their offerings.\n\nGood coffee.\n\nService was fast, friendly and efficient!",
+				"time_created": "2023-08-29 11:30:33",
+				"url": "https://www.yelp.com/biz/lovejoy-bakers-portland-2?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=pHb0sKNIf4Hw7Mb3RssKsg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Kelvin Y."
+				}
+			},
+			{
+				"id": "xx-elbl0JZF_ZwGuCjK8Pg",
+				"rating": 5,
+				"text": "Nice people.  Lovely pastries.  Not much seating but pleasant place and good breakfast choices.",
+				"time_created": "2024-01-31 10:20:31",
+				"url": "https://www.yelp.com/biz/lovejoy-bakers-portland-2?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=xx-elbl0JZF_ZwGuCjK8Pg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "J. M. B."
+				}
+			}
+		],
+		"categories": [
+			{
+				"title": "Bakeries"
+			},
+			{
+				"title": "Sandwiches"
+			},
+			{
+				"title": "Breakfast & Brunch"
+			}
+		]
+	},
+	"sunitasThaiKitchenPortland": {
+		"name": "Sunita's Thai Kitchen",
+		"alias": "sunitas-thai-kitchen-portland",
+		"id": "mdVogU5UdVoHpubJMX7E2w",
+		"url": "https://www.yelp.com/biz/sunitas-thai-kitchen-portland?adjust_creative=KC-44AJQpA8gfEzz64IiGA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+		"display_phone": "(971) 346-2441",
+		"review_count": 68,
+		"rating": 5,
+		"photos": [
+			"https://s3-media1.fl.yelpcdn.com/bphoto/W5qrFUEIBywLUSTEXtv9mg/o.jpg"
+		],
+		"price": null,
+		"location": {
+			"address1": "9085 SW Beaverton Hillsdale Hwy"
+		},
+		"reviews": [
+			{
+				"id": "0gAx5K7jeBaAl0kPgiPxUA",
+				"rating": 5,
+				"text": "This place is amazing no cap. This is my favorite Thai food in the area. Their food is so gas no kidding for real.",
+				"time_created": "2024-01-26 20:08:31",
+				"url": "https://www.yelp.com/biz/sunitas-thai-kitchen-portland?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=0gAx5K7jeBaAl0kPgiPxUA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Andrew N."
+				}
+			},
+			{
+				"id": "TGGq2qGcoZgMwH0TP9YW6Q",
+				"rating": 4,
+				"text": "Called ahead one night for dinner and it was ready when we arrived.  As per usual, got the tofu pad thai and the drunken noodle.  Everything was really good...",
+				"time_created": "2023-12-27 19:42:31",
+				"url": "https://www.yelp.com/biz/sunitas-thai-kitchen-portland?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=TGGq2qGcoZgMwH0TP9YW6Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Chris L."
+				}
+			},
+			{
+				"id": "tBoZTixG488YI2VosZMnDA",
+				"rating": 5,
+				"text": "Delicious food and amazing customer service. My go-to food truck when around the Beaverton area. 10/10 recommend!",
+				"time_created": "2023-12-31 15:33:16",
+				"url": "https://www.yelp.com/biz/sunitas-thai-kitchen-portland?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=tBoZTixG488YI2VosZMnDA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Brigit G."
+				}
+			}
+		],
+		"categories": [
+			{
+				"title": "Thai"
+			},
+			{
+				"title": "Bubble Tea"
+			},
+			{
+				"title": "Coffee & Tea"
+			}
+		]
+	},
+	"courierCoffeeRoastersPortland": {
+		"name": "Courier Coffee Roasters",
+		"alias": "courier-coffee-roasters-portland",
+		"id": "EuAZ-e6dauZkZ5Dg_slhWA",
+		"url": "https://www.yelp.com/biz/courier-coffee-roasters-portland?adjust_creative=KC-44AJQpA8gfEzz64IiGA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+		"display_phone": "(503) 545-6444",
+		"review_count": 332,
+		"rating": 4.5,
+		"photos": [
+			"https://s3-media1.fl.yelpcdn.com/bphoto/vwWCAnzOeTuuWTmKfJX7LQ/o.jpg"
+		],
+		"price": "$",
+		"location": {
+			"address1": "923 SW Oak St"
+		},
+		"reviews": [
+			{
+				"id": "8Y0TG1RGPqfovuAjPFXASg",
+				"rating": 5,
+				"text": "This small coffee and tea shop is easy to miss. But don't. \n\nWe came here for the summertime shaved ice but got tempted into getting cafe beverages and...",
+				"time_created": "2023-09-16 18:10:09",
+				"url": "https://www.yelp.com/biz/courier-coffee-roasters-portland?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=8Y0TG1RGPqfovuAjPFXASg&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Tyson T."
+				}
+			},
+			{
+				"id": "_VF76ioMhITzH_NP0KNNpA",
+				"rating": 4,
+				"text": "Wow, the coffee was amazing. Got myself an Americano and it may have been one for the smoothest I've ever had. Thus a good rating.\n\nNot to the not so...",
+				"time_created": "2023-09-03 16:11:41",
+				"url": "https://www.yelp.com/biz/courier-coffee-roasters-portland?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=_VF76ioMhITzH_NP0KNNpA&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Jennifer C."
+				}
+			},
+			{
+				"id": "ugika_DCu3o-7gjvJQ5pVQ",
+				"rating": 5,
+				"text": "This place has some really good shaved ice! It's a small counter located in Courier Coffee. They also have small snacks to eat.  We got the Hojicha Kokuto...",
+				"time_created": "2023-10-31 06:46:30",
+				"url": "https://www.yelp.com/biz/courier-coffee-roasters-portland?adjust_creative=KC-44AJQpA8gfEzz64IiGA&hrid=ugika_DCu3o-7gjvJQ5pVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_graphql&utm_source=KC-44AJQpA8gfEzz64IiGA",
+				"user": {
+					"name": "Charlie T."
+				}
+			}
+		],
+		"categories": [
+			{
+				"title": "Coffee Roasteries"
+			}
+		]
+	}
+}

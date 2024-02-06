@@ -23,6 +23,7 @@ export const FavoritesQuery = `
   fragment basicBizInfo on Business {
     name
     id
+    alias
     photos
   }
 `
