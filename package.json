@@ -1,5 +1,5 @@
 {
-	"name": "discogs-yelp-app",
+	"name": "my-yelp-app",
 	"description": "An app that queries Yelp for favorite eateries and reviews ",
 	"version": "0.1.0",
 	"type": "module",
