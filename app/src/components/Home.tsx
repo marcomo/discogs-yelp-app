@@ -1,9 +1,9 @@
-import { FavoritesData } from '../types'
+import { FavoritesResponse } from '../types'
 import { FunctionComponent } from 'react'
 import { Link, useRouteLoaderData } from 'react-router-dom'
 
 const Home: FunctionComponent = () => {
-	const { favorites } = useRouteLoaderData('root') as FavoritesData
+	const favorites = useRouteLoaderData('root') as FavoritesResponse
 	return (
 		<div className='home'>
 			<h1>"These are few of my favorite things."</h1>
@@ -11,7 +11,7 @@ const Home: FunctionComponent = () => {
 				{Object.values(favorites).map((fav) => {
 					return (
 						<Link
-							to={`/favs/${fav.id}`}
+							to={`/favs/${fav.alias}`}
 							key={`${fav.id}-card`}
 							className='card card-3-col-sq card-photo'
 							style={{

@@ -1,13 +1,10 @@
-import classNames from 'classnames'
-import { Link, NavLink, Outlet, useLoaderData } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 
 import ErrorBoundary from '../components/ErrorBoundary'
-import { FavoritesData } from '../types'
+import Nav from '../components/Nav'
 import yelpBurst from '../assets/yelp_burst.svg'
 
 export default function Root() {
-	const { favorites } = useLoaderData() as FavoritesData
-
 	return (
 		<>
 			<aside className='sidebar sidebar-separated sidebar-left'>
@@ -17,25 +14,7 @@ export default function Root() {
 						<span>Yelp Favorites</span>
 					</h1>
 				</Link>
-				<nav className='nav'>
-					<ul className='list'>
-						{Object.values(favorites).map((fav) => (
-							<li className='list-item' key={fav.id}>
-								<NavLink
-									className={({ isActive, isPending }) => {
-										return classNames('link', {
-											'nav__nav-item-active': isActive,
-											'nav__nav-item-pending': isPending,
-										})
-									}}
-									to={`/favs/${fav.id}`}
-								>
-									{fav.name}
-								</NavLink>
-							</li>
-						))}
-					</ul>
-				</nav>
+				<Nav />
 			</aside>
 			<section className='detail'>
 				<ErrorBoundary>

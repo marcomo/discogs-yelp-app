@@ -7,17 +7,7 @@ import { FavoritesResponse, ReviewsResponse } from '../types'
 
 export const rootLoader: (queryKey: QueryKey) => LoaderFunction =
 	(queryKey) => async () => {
-		const favorites = await queryFetch<FavoritesResponse>(
-			FavoritesQuery,
-			queryKey
-		)
-		const out = Object.values(favorites).reduce((prev, next) => {
-			return {
-				[next.id]: next,
-				...prev,
-			}
-		}, {})
-		return { favorites: out }
+		return await queryFetch<FavoritesResponse>(FavoritesQuery, queryKey)
 	}
 
 export const businessLoader: LoaderFunction = async ({ params }) => {
