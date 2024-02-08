@@ -266,7 +266,7 @@ hr {
 
 .card-3-col-sq {
 	position: relative;
-	flex: 1 1 calc(33% - 4rem);
+	flex: 0 1 calc(33% - 4rem);
 	aspect-ratio: 1 / 1;
 	color: $color-neutral-100;
 }
@@ -304,10 +304,6 @@ hr {
 	transition: border-color 0.25s;
 	&:hover {
 		border-color: $color-blue-300;
-	}
-	&:focus,
-	&:focus-visible {
-		outline: 4px auto -webkit-focus-ring-color;
 	}
 	&:active {
 		box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.4);
