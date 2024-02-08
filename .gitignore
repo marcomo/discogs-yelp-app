@@ -174,3 +174,6 @@ dist-ssr
 
 # os
 .DS_Store
+
+# diff files
+*.diff
