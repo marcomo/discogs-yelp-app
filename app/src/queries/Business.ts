@@ -1,5 +1,6 @@
+export const BUSINESS_QUERY_NAME = 'Business'
 export const BusinessQuery = (id: string) => `
-  query Business {
+  query ${BUSINESS_QUERY_NAME} {
     business(id: "${id}") {
       name
       id

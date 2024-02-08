@@ -1,45 +1,23 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { RouterProvider } from 'react-router-dom'
 
 import './index.scss'
 
-import Error from './components/Error'
-import { Favorite } from './routes/Favorite'
-import Home from './components/Home'
-import Root from './routes/Root'
-import { businessLoader, rootLoader } from './routes/loaders'
+const enableApiMocking = async () => {
+	if (!import.meta.env.DEV) {
+		return
+	}
+	const { worker } = await import('../mocks/browser')
+	await import('./mockServiceWorker.js?worker')
+	return await worker.start()
+}
 
-const router = createBrowserRouter([
-	{
-		path: '/',
-		element: <Root />,
-		loader: rootLoader(['/']),
-		shouldRevalidate: () => false,
-		id: 'root',
-		errorElement: <Error />,
-		children: [
-			{
-				path: '',
-				element: <Home />,
-			},
-			{
-				errorElement: <Error />,
-				children: [
-					{
-						path: 'favs/:id',
-						id: 'fav',
-						element: <Favorite />,
-						loader: businessLoader,
-					},
-				],
-			},
-		],
-	},
-])
-
-ReactDOM.createRoot(document.getElementById('root')!).render(
-	<React.StrictMode>
-		<RouterProvider router={router} />
-	</React.StrictMode>
-)
+enableApiMocking().then(async () => {
+	const router = await (await import('./router')).default
+	ReactDOM.createRoot(document.getElementById('root')!).render(
+		<React.StrictMode>
+			<RouterProvider router={router} />
+		</React.StrictMode>
+	)
+})

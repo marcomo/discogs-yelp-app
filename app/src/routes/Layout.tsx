@@ -1,12 +1,14 @@
+import { FunctionComponent, PropsWithChildren } from 'react'
 import { Link, Outlet } from 'react-router-dom'
 
 import ErrorBoundary from '../components/ErrorBoundary'
 import Nav from '../components/Nav'
 import yelpBurst from '../assets/yelp_burst.svg'
 
-export default function Root() {
+const Layout: FunctionComponent<PropsWithChildren> = ({ children }) => {
 	return (
-		<>
+		// {/* ErrorBoundary is fallback for errors uncaught by react-router-dom */}
+		<ErrorBoundary>
 			<aside className='sidebar sidebar-separated sidebar-left'>
 				<Link to='/'>
 					<h1 className='logo'>
@@ -16,11 +18,9 @@ export default function Root() {
 				</Link>
 				<Nav />
 			</aside>
-			<section className='detail'>
-				<ErrorBoundary>
-					<Outlet />
-				</ErrorBoundary>
-			</section>
-		</>
+			<section className='detail'>{children || <Outlet />}</section>
+		</ErrorBoundary>
 	)
 }
+
+export default Layout

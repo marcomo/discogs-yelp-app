@@ -1,8 +1,8 @@
-# Discogs Yelp App
+# MY Yelp App
 
-Nothing Discog-y about it. Just an app that loads some of my favorite Portland eateries from the Yelp GraphQL API.
+Just an app that loads some of my favorite Portland eateries from the Yelp GraphQL API.
 
-This is a interview exercise project. Hope they dig it.
+This was an interview exercise project that I chose to continue improving. The version I sent to the company is tagged at `0.1.0`.
 
 ## What's Inside
 
